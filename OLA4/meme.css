@@ -1,0 +1,66 @@
+/* Name: Marlene Habib */
+/* Instructor: Dr. Yang */
+/* OLA 4 */
+/* meme.css */
+/* Date: 03-21-2024 */
+/* Due Date: 03-21-2024 */
+
+/* Styles for Heading 1 */	
+h1 {
+    text-align: center;
+    font-family: Arial;
+    color: #99e6e6;
+}
+
+/* Style for the body of the website */
+body {
+    background-color: #1cb5cc;
+}
+
+/* Styles for meme1 div */
+#meme1 {
+	display: block;
+	background-color: black;
+	margin: 10px;
+	padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+	
+}
+
+/* Style for meme2 div */	
+#meme2 {
+    text-align: center;
+    color: #8c3aa8;
+}
+
+/* Styles for top text */
+#top-text{
+    margin: 10px;
+}
+
+/* Styles for bottom text */
+#bottom-text{
+    margin: 10px;
+}
+
+/* Styles for image url */
+#image-url{
+    margin: 10px;
+}
+
+/* Styles for top caption */
+#top-caption{
+	text-align: left;
+	color: white;
+    padding-left: 200px;
+}
+
+/* Styles for bottom caption */
+#bottom-caption {
+    text-align: left;
+    color: white;
+    padding-left: 200px;
+    margin-top: 180px;
+}

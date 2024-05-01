@@ -1,0 +1,66 @@
+<!-- Name: Marlene Habib -->
+<!-- Instructor: Dr. Yang -->
+<!-- OLA 4 -->
+<!-- index.html -->
+<!-- Date: 03-21-2024 -->
+<!-- Due Date: 03-21-2024 --> 
+
+<!-- Define HTML5 document -->
+<!DOCTYPE html>
+
+<!-- Declare html -->
+<html>
+
+<!-- Declare head -->	
+<head>
+
+	<!-- The title of this assignment -->
+	<title>Meme Generator Website</title>
+
+	<!-- Link to meme.css -->
+	<link type="text/css" rel="stylesheet" href="meme.css" />
+
+	<!-- Script to jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Script to meme.js -->
+	<script src="meme.js"></script>
+
+<!-- End of head -->
+</head>
+
+<!-- Declare body -->
+<body>
+
+	<!-- Heading 1 for welcoming the meme generator -->
+	<h1>Welcome to my Meme Generator!</h1>
+	
+	<!-- Meme 2 div -->
+	<div id="meme2">
+		<label for="top-text">Top Text</label>
+		<input id="top-text" type="text">
+		<br>
+		<label for="bottom-text">Bottom Text</label>
+		<input id="bottom-text" type="text">
+		<br>
+		<label for="image-url">Image URL</label>
+		<input id="image-url" type="text">
+		<br>
+	</div>
+	
+	<!-- Meme 1 div -->
+	<div id="meme1">
+		<h1 id="top-caption"></h1>
+		<h1 id="bottom-caption"></h1>
+	</div>
+	
+	<!-- Meme 3 div -->
+	<div id="meme3" style="height:100px; width:100px; position:absolute">
+		<img id="img1" src="mtsu.jpg" style="height: 100px; width: 100px">
+	</div>
+
+<!-- End of body -->
+</body>
+
+<!-- End of html -->
+</html>
